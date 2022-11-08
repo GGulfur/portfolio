@@ -1,12 +1,12 @@
 // Create your own color map
-$custom-colors: (
-  "custom": $custom,
-        "custom2":$custom2,
-);
+//$custom-colors: (
+//  "custom": $custom,
+//        "custom2":$custom2,
+//);
 
 // Merge the color maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
-$colors : map-merge($colors, $custom-colors);
+//$theme-colors: map-merge($theme-colors, $custom-colors);
+//$colors : map-merge($colors, $custom-colors);
 
 
 // Create your own spacer map
