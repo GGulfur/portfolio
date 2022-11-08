@@ -1,7 +1,12 @@
 // Create your own color map
 $custom-colors: (
+
   "custom": $custom,
-        "custom2":$custom2,
+  "bart": #bbb229,
+  "jarno": #7b00ff,
+  "jason": #e60000,
+  "thibo": #8ab4f8,
+  "virgil": #6e708f
 );
 
 // Merge the color maps

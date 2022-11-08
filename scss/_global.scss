@@ -10,6 +10,13 @@
 
 //header start
 
+@media screen and (min-width: 992px)  {
+  header {
+    li:hover {
+      background: white;
+    }
+  }
+}
 //header end
 
 
