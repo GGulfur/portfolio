@@ -3,12 +3,64 @@
 
 
 //mixins
-
+//Virgil
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: rgba($theme, 0.16) 0px 10px 36px 0px, rgba($theme, 0.06) 0px 0px 0px 1px;
+  color: #fff;
+}
 
 //globale classes
+//Virgil
 
+.Boxjason {
+  @include theme($theme: #E60000);
+}
+.Boxbart {
+  @include theme($theme: #bbb229);
+}
+.Boxjarno{
+  @include theme($theme: #7B00FF);
+}
+.Boxthibo{
+  @include theme($theme: #8ab4f8);
+}
+.Boxvirgil{
+  @include theme($theme: #6e708f);
+}
 
 //header start
+//virgil
+.bg-jason {
+  @include theme($theme: #E60000);
+  opacity: 0.75;
+}
+.bg-bart {
+  @include theme($theme: #bbb229);
+  opacity: 0.75;
+}
+.bg-jarno{
+  @include theme($theme: #7B00FF);
+  opacity: 0.75;
+}
+.bg-thibo{
+  @include theme($theme: #8ab4f8);
+  opacity: 0.75;
+}
+.bg-virgil{
+  @include theme($theme: #6e708f);
+  opacity: 0.75;
+}
+@media (min-width: 992px) {
+  .foto{
+    background: url("../assets/images/home/img.png");
+  }
+}
+@media (max-width: 992px) {
+  #mouse{
+    display: none;
+  }
+}
 
 //header end
 
